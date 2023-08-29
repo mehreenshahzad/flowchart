@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="M KHURRAM"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 10:53:19 pm"/>
+        <attribute name="created" value="TSBLSFVSUkFNO0RFU0tUT1AtVFNWS1Y4RDsyMDIzLTA4LTI5OzEwOjUxOjA3IHBtOzMxMTY="/>
+        <attribute name="edited" value="TSBLSFVSUkFNO0RFU0tUT1AtVFNWS1Y4RDsyMDIzLTA4LTI5OzEwOjUzOjE5IHBtOzE7MzIyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hours, rate, pay" type="Integer" array="False" size=""/>
+            <input variable="hours"/>
+            <input variable="rate"/>
+            <assign variable="pay" expression="hours*rate"/>
+            <output expression="pay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
